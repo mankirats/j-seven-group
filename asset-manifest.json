@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e2f1886.css",
-    "main.js": "/static/js/main.d6423943.js",
-    "static/media/intro.jpg": "/static/media/intro.866ea08f070cda26dc05.jpg",
-    "static/media/logo no.png": "/static/media/logo no.fafb95f6a63d84f295db.png",
-    "static/media/trust.jpg": "/static/media/trust.03ecf0065d9482f5f216.jpg",
-    "static/media/trucking-delivery-svgrepo-com (1).svg": "/static/media/trucking-delivery-svgrepo-com (1).0b1739854aa1fab68644b8d9fab91dc2.svg",
-    "static/media/business.svg": "/static/media/business.ddaf5c3d3448c2f7f281f3d533bfa642.svg",
-    "index.html": "/index.html",
-    "main.4e2f1886.css.map": "/static/css/main.4e2f1886.css.map",
-    "main.d6423943.js.map": "/static/js/main.d6423943.js.map"
+    "main.css": "/j-seven-group/static/css/main.d73f91a1.css",
+    "main.js": "/j-seven-group/static/js/main.a9a969c0.js",
+    "static/media/intro.jpg": "/j-seven-group/static/media/intro.866ea08f070cda26dc05.jpg",
+    "static/media/logo no.png": "/j-seven-group/static/media/logo no.fafb95f6a63d84f295db.png",
+    "static/media/trust.jpg": "/j-seven-group/static/media/trust.03ecf0065d9482f5f216.jpg",
+    "static/media/trucking-delivery-svgrepo-com (1).svg": "/j-seven-group/static/media/trucking-delivery-svgrepo-com (1).0b1739854aa1fab68644b8d9fab91dc2.svg",
+    "static/media/business.svg": "/j-seven-group/static/media/business.ddaf5c3d3448c2f7f281f3d533bfa642.svg",
+    "index.html": "/j-seven-group/index.html",
+    "main.d73f91a1.css.map": "/j-seven-group/static/css/main.d73f91a1.css.map",
+    "main.a9a969c0.js.map": "/j-seven-group/static/js/main.a9a969c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.4e2f1886.css",
-    "static/js/main.d6423943.js"
+    "static/css/main.d73f91a1.css",
+    "static/js/main.a9a969c0.js"
   ]
 }
