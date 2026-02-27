@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
+import business from "../media/business.svg";
 
 export default function ContactPage() {
     const [showDialog, setShowDialog] = useState(false);
@@ -66,15 +67,38 @@ export default function ContactPage() {
                         </motion.p>
 
                         <motion.div className="info-item" variants={item}>
-                            📍 Toronto, Canada
+                            <div>
+                                <strong>
+                                    <>Business Address</>
+                                </strong>
+                            </div>
+                            <div>
+                                50 Milner St., Winnipeg
+                                {"     "}
+                                <strong>MB, R2X 2X3</strong>
+                                {"     "}
+                            </div>
+                        </motion.div>
+                        <motion.div className="info-item" variants={item}>
+                            <div>
+                                <strong>
+                                    <>Mailing Address</>
+                                </strong>
+                            </div>
+                            <div>
+                                218 Daylan Marshall Gate, Winnipeg
+                                {"     "}
+                                <strong>MB, R2P 1X8</strong>
+                            </div>
                         </motion.div>
 
                         <motion.div className="info-item" variants={item}>
-                            ✉️ info@company.com
-                        </motion.div>
-
-                        <motion.div className="info-item" variants={item}>
-                            📞 +1 (236) 000-0000
+                            <div>
+                                <strong>
+                                    <>Cell Number</>
+                                </strong>
+                            </div>
+                            <div>204-914-0288, 204-955-5024</div>
                         </motion.div>
                     </motion.div>
 

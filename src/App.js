@@ -3,11 +3,14 @@ import "./index.css";
 import logo from "./media/logo no.png";
 // import { useState } from "react";
 import "animate.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route, useLocation } from "react-router-dom";
 import Home from "./components/Home";
 import Quote from "./components/Quote";
 import ContactPage from "./components/ContactPage";
 import ServicesPage from "./components/ServicesPage";
+import Footer from "./components/Footer";
+import React from "react";
+
 function App() {
     return (
         <>
@@ -21,6 +24,7 @@ function App() {
                 <Route path="/contact" element={<ContactPage />} />
                 <Route path="/services" element={<ServicesPage />} />
             </Routes>
+            <Footer logo={logo}></Footer>
         </>
     );
 }
